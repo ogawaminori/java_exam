@@ -126,7 +126,7 @@ public class MemberDao {
 			PreparedStatement pstmt = con.prepareStatement(sql);
 			// ここに挿入処理を書く
 			
-			pstmt.setInt(2, member.getAge());
+			pstmt.setInt(1, member.getAge());
 			
 
 			int a =pstmt.executeUpdate();
