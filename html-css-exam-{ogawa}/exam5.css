@@ -1,0 +1,7 @@
+div.header{background-color: blue;width: 900px; height: 50px;}
+div.menu{background-color: aqua;width: 300px; height: 150px;}
+div.main{background-color: aquamarine;width: 300px; height: 150px;}
+div.CM{background-color: yellow;width: 300px; height: 150px;}
+
+div.footer{background-color:palevioletred; width: 900px; height: 50px;}
+div.middle{display: flex;}

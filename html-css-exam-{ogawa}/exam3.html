@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>会員登録フォーム</h1>
+    <form action="/register" method="post">
+        <ul>
+            <label>
+                <li>名前：<input type="text" name="name"></li>
+            </label>
+
+            <label>
+                <li>メールアドレス：<input type="text" name="address"></li>
+            </label>
+
+            <label>
+                <li> 性別<input type="radio" name="gender" value="male">男性
+                     <input type="radio" name="gender" value="female">女性</li></label>
+            </label>
+
+             <label>
+            <li> 生年月日<select name="birthday">
+                    <option value="year">----</option>
+                    <option value="year">1990</option>
+                    <option value="year">1991</option>
+                    <option value="year">1992</option>
+                    <option value="year">1993</option>
+                    <option value="year">1994</option>
+                    <option value="year">1995</option>
+                    <option value="year">1996</option>
+                    <option value="year">1997</option>
+                    <option value="year">1998</option>
+                    <option value="year">1999</option>
+                    <option value="year">2000</option>
+                    
+
+                </select>
+                <select name="birthday">
+                    <option value="month">--</option>
+                    <option value="month">01</option>
+                    <option value="month">02</option>
+                    <option value="month">03</option>
+                    <option value="month">04</option>
+                    <option value="month">05</option>
+                    <option value="month">06</option>
+                    <option value="month">07</option>
+                    <option value="month">08</option>
+                    <option value="month">09</option>
+                    <option value="month">10</option>
+                    <option value="month">11</option>
+                    <option value="month">12</option>
+                    
+                </select>
+                <select name="birthday">
+                    <option value="day">--</option>
+                    <option value="day" min="1">1</option>
+                    <option value="day" min="1">10</option>
+                    <option value="day" min="1">20</option>
+                    <option value="day" max="31">30</option>
+                    
+                </select>
+            
+            
+            </li></label>
+            <button>送信</button>&nbsp;<button type="reset">リセット</button>
+        </ul>
+    </form>
+
+</body>
+
+</html>
